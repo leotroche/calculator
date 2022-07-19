@@ -46,12 +46,6 @@ const clearButton = () => ({ screen, expression, theEqualButtonWasPressed } = da
 // -------------------------------------------------------------------------------------------------
 
 const deleteButton = () => {
-  if (expression === 'invalid expression') {
-    screen = ''
-    expression = ''
-    return
-  }
-
   screen = screen.slice(0, -1)
   expression = expression.slice(0, -1)
 }
@@ -76,6 +70,11 @@ const equalButton = () => {
 
 const resolve = (symbol, value) => {
   const isAnOperator = ['+', '-', '*', '/'].includes(value)
+
+  if (expression === 'invalid expression') {
+    screen = ''
+    expression = ''
+  }
 
   if (isAnOperator) return operatorButton(symbol, value)
   if (value === 'AC') return clearButton()
