@@ -5,7 +5,7 @@ export const Calculator = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1.2rem;
 
   width: var(--calculator-w);
   padding: 1rem;

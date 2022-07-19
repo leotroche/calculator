@@ -5,4 +5,5 @@ export const DarkMode = styled.button`
   border: none;
   transition: color 0.2s ease;
   color: ${({ theme }) => theme.color};
+  font-size: 2.5rem;
 `

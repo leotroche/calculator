@@ -4,7 +4,6 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 1rem;
 
   transition: color 0.2s ease;
@@ -16,5 +15,5 @@ export const Footer = styled.footer`
 `
 
 export const Span = styled.span`
-  font-size: 1rem;
+  font-size: 1.25rem;
 `

@@ -5,7 +5,6 @@ import {
   Calculator,
   DarkMode,
   Footer,
-  Header,
   Screen,
   Themes,
   Wrapper
@@ -19,15 +18,12 @@ import buttons from './js/buttons'
 
 function App() {
   const [screen, setScreen] = useState('')
-  const [theme, setTheme] = useLocalStorage('theme', 'darkMode')
+  const [theme, setTheme] = useLocalStorage('theme', 'lightMode')
 
   return (
     <ThemeProvider theme={Themes[theme]}>
       <Wrapper>
-        <Header>
-          Calculator
-          <DarkMode theme={theme} setTheme={setTheme} />
-        </Header>
+        <DarkMode theme={theme} setTheme={setTheme} />
         <Calculator>
           <Screen screen={screen} />
           <ButtonBox>
