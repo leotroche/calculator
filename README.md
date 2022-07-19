@@ -1,6 +1,6 @@
 # Calculator
 
-- Live Demo: [https://superb-phoenix-3c2349.netlify.app/](https://superb-phoenix-3c2349.netlify.app/)
+- Live Demo: [https://celebrated-cactus-4f01ab.netlify.app/](https://celebrated-cactus-4f01ab.netlify.app/)
 
 ### How to Run
 
