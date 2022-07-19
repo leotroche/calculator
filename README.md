@@ -1,4 +1,6 @@
-# react calculator
+# Calculator
+
+[Demo Live](https://superb-phoenix-3c2349.netlify.app/)
 
 ## How to Run
 Clone this repository:
